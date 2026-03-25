@@ -70,9 +70,8 @@ function Formulario() {
                         onChange={handleChange}
                     >
                         <option value="">Selecione</option>
-                        <option value="estudante">Estudante</option>
-                        <option value="profissional">Profissional</option>
-                        <option value="outro">Outro</option>
+                        <option value="comum">Usuario Comum</option>
+                        <option value="adm">Administrador</option>
                     </select>
                 </div>
 

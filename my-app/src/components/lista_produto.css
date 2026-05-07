@@ -1,0 +1,46 @@
+.lista-produtos {
+  font-family: Arial, sans-serif;
+  width: 350px;
+}
+
+.lista-produtos h2 {
+  color: #1e3a8a;
+  margin-bottom: 15px;
+}
+
+.produto {
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.produto h3 {
+  margin: 0 0 8px 0;
+}
+
+.produto p {
+  margin: 0;
+}
+
+.produto-0 {
+  background-color: #e0f2fe;
+}
+
+.produto-1 {
+  background-color: #dcfce7;
+}
+
+.produto-2 {
+  background-color: #fef9c3;
+}
+
+.produto-3 {
+  background-color: #fae8ff;
+}
+
+.produto:hover {
+  transform: scale(1.03);
+  background-color: #dbeafe;
+}

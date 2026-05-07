@@ -1,17 +1,11 @@
-import { useState } from 'react'
-import FormularioLivro from './components/formulario_exemplo'
-import Formulario from './components/formulario_exercicio'
-
-import './App.css'
+import ListaProdutos from "./components/lista_produto";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    
-    <Formulario />
-  )
-    
+    <div>
+      <ListaProdutos />
+    </div>
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,33 @@
+.card-aluno {
+  border: 2px solid #1e3a8a;
+  padding: 20px;
+  background-color: #f0f4ff;
+  border-radius: 10px;
+  width: 280px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.card-aluno h2 {
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.card-aluno p {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.btn-perfil {
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-perfil:hover {
+  background-color: #2563eb;
+}

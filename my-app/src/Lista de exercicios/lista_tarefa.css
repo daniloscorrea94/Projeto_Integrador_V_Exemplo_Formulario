@@ -1,0 +1,66 @@
+.container-tarefas {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.container-tarefas h2 {
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+.lista-tarefas {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+}
+
+.card-tarefa {
+  padding: 18px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-tarefa h3 {
+  margin: 0 0 8px 0;
+}
+
+.card-tarefa p {
+  margin: 0;
+}
+
+.concluida {
+  background-color: #dcfce7;
+  border-left: 6px solid green;
+  color: green;
+}
+
+.pendente {
+  background-color: #fee2e2;
+  border-left: 6px solid red;
+  color: red;
+}
+
+.card-tarefa:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.btn-remover {
+  background-color: #1e293b;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-remover:hover {
+  background-color: #ef4444;
+  transform: scale(1.05);
+}

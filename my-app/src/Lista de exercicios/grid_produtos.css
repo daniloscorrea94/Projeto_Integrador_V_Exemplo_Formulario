@@ -1,0 +1,40 @@
+.tela-produtos {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.tela-produtos h2 {
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+.grid-produtos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.card-produto {
+  background-color: #f0f4ff;
+  border: 2px solid #1e3a8a;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card-produto h3 {
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.card-produto p {
+  color: #333;
+  margin: 0;
+}
+
+.card-produto:hover {
+  transform: translateY(-5px);
+  background-color: #dbeafe;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}

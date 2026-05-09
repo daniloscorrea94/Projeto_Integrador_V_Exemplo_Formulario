@@ -1,0 +1,54 @@
+.container-filmes {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.container-filmes h2 {
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+.lista-filmes {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card-filme {
+  background-color: #f0f4ff;
+  border: 2px solid #1e3a8a;
+  border-radius: 12px;
+  padding: 20px;
+  width: 220px;
+  transition: 0.3s;
+}
+
+.card-filme h3 {
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.card-filme p {
+  color: #333;
+  margin: 8px 0;
+}
+
+.card-filme:hover {
+  transform: scale(1.05);
+  background-color: #dbeafe;
+}
+
+.btn-assistir {
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.btn-assistir:hover {
+  background-color: #2563eb;
+}

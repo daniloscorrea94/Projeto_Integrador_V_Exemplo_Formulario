@@ -1,0 +1,20 @@
+.menu {
+  display: flex;
+  gap: 25px;
+  background-color: #1e3a8a;
+  padding: 15px 25px;
+  border-radius: 8px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #facc15;
+  transform: scale(1.1);
+}

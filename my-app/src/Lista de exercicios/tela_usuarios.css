@@ -1,0 +1,40 @@
+.tela-usuarios {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.tela-usuarios h2 {
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+.usuarios-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card-usuario {
+  background-color: #f0f4ff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 240px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card-usuario h3 {
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.card-usuario p {
+  color: #333;
+  margin: 8px 0;
+}
+
+.card-usuario:hover {
+  transform: translateY(-5px);
+  background-color: #dbeafe;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}

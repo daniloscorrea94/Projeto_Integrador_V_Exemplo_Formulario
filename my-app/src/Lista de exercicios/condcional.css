@@ -1,0 +1,27 @@
+.lista-alunos {
+  font-family: Arial, sans-serif;
+  width: 300px;
+}
+
+.lista-alunos h2 {
+  color: #1e3a8a;
+  margin-bottom: 15px;
+}
+
+.aprovado {
+  color: green;
+  background-color: #dcfce7;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.reprovado {
+  color: red;
+  background-color: #fee2e2;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+}
